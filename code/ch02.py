@@ -5,6 +5,8 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap
+import os
+print (os.getcwd())
 
 # *Python Machine Learning 2nd Edition* by [Sebastian Raschka](https://sebastianraschka.com), Packt Publishing Ltd. 2017
 # 
@@ -179,8 +181,8 @@ df.tail()
 
 
 
-df = pd.read_csv('iris.data', header=None)
-df.tail()
+#df = pd.read_csv('iris.data')
+#df.tail()
 
 
 
